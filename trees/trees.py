@@ -1,7 +1,8 @@
 class TreeNode:
-    def __init__(self, title, neighbours=[]):
+    def __init__(self, title, neighbours=[], color="black"):
         self.neighbours = neighbours
         self.title = title
+        self.color = color
         self._visited = False
         self.parent = None
         self.level = 0

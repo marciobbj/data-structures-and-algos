@@ -1,6 +1,9 @@
 from trees.trees import Tree, TreeNode
 from queue import Queue
 
+"""
+Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
+"""
 
 A = TreeNode("A")
 B = TreeNode("B")
