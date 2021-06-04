@@ -1,18 +1,9 @@
 """
-Queues são consideradas estruturas lineares FIFO (First In First Out). E.g. [1, 2, 3].remove() -> [2, 3]
+Queues sao consideradas estruturas lineares FIFO (First In First Out). E.g. [1, 2, 3].remove() -> [2, 3]
 """
 
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-
-class LinearDataStructure:
-    def __init__(self):
-        self.head: Node = None
-        self.tail: Node = None
+from stacks_and_queues import LinearDataStructure, Node
 
 
 class Queue(LinearDataStructure):
